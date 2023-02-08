@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.lll {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(197, 197, 197, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    padding: 15px 0;
+}
+header .container {
+    display: flex;
+    align-items: center;
+
+}
+.logo {
+    width: 125px;
+}
+
+.main {
+    position: relative;
+    height: 650px;
+
+}
+.imgBox {
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img {
+    position: relative;
+    z-index: 5;
+    width: 100%;
+    transform: rotateZ(-15deg);
+}
+.background {
+    z-index: 4;
+    position: absolute;
+    border-radius: 50%;
+    width: 120%;
+    height: 120%;
+    background-color: rgba(0,121,184, 1);
+    filter: blur(50px);
+    display: none;
+}
+.box1 {
+    z-index: 4;
+    position: absolute;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(0,121,184, 1);
+    filter: blur(50px);
+    top: 225px;
+    left: 50px;
+}
+.box2 {
+    z-index: 4;
+    position: absolute;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(242, 14, 212);
+    filter: blur(50px);
+    top: 100px;
+    right: 150px;
+}
+.box3 {
+    z-index: 4;
+    position: absolute;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    background-color: rgb(14, 242, 109);
+    filter: blur(0px);
+    top: 100px;
+    right: 500px;
+}
