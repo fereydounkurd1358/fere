@@ -9,6 +9,7 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
+    background-color: gray;
 }
 .lll {
     width: 100%;
